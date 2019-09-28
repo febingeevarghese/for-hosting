@@ -1,0 +1,26 @@
+<table class="table">
+    <tr>
+    <th> Course Title</th>
+    <th> Course Details</th>
+    <th>Course Duration</th>
+    <th>Course Venue</th>
+    </tr>
+    <tr *ngFor="let data of myData">
+        <td>
+            {{data.courseTitle}}
+        </td>
+        <td>
+                {{data.courseDescription}}
+            </td>
+            <td>
+                    {{data.courseDuration}}
+                </td>
+                <td>
+                        {{data.courseVenue}}
+                    </td>
+                    <td>
+                            {{data.Date}}
+                        </td>
+    </tr>
+</table>
+
