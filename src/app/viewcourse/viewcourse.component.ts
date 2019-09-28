@@ -16,7 +16,7 @@ myData:Array<object>=[]
   public fetchValues(){
     return this.api.viewCourses().subscribe((response:Array<object>)=>{
       this.myData=response;
-console.log=response
+console.log(response)
     })
   }
 
